@@ -18,8 +18,8 @@ class MainTableViewController: UITableViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         self.navigationController?.navigationBar.lt_setBackgroundColor(UIColor.clearColor())
-        tableView.dataSource = self
-        
+        tableView.dataSource                                         = self
+
         
     }
     
@@ -54,30 +54,33 @@ class MainTableViewController: UITableViewController {
         navigationController?.navigationBar.lt_reset()
     }
 //MARK:- Delegate && Datasource 
-    
+
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Header"
     }
-    
+
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
-    
+
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 5
     }
-    
+
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell")! as UITableViewCell
-        
+
+        let cell             = tableView.dequeueReusableCellWithIdentifier("Cell")! as UITableViewCell
+
         cell.textLabel?.text = "balalala"
-        
+
         return cell
-        
+
     }
     
 
     
+    func injected() {
+        print("I've been injected: (self)")
+    }
 }
 
