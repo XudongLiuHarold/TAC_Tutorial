@@ -50,7 +50,7 @@ public extension UIColor
 {
     class func lxd_BlueColor()-> UIColor
     {
-        return UIColor(red: 0, green: 175/255, blue: 240/255, alpha: 1)
+        return UIColor(red: 54/255, green: 74/255, blue: 98/255, alpha: 1)
     }
     
     

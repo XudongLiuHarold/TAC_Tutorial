@@ -71,7 +71,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Hello" id="w8q-M5-GdK">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="JjR-n0-ECh">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="JjR-n0-ECh">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="presentLeftMenuViewController:" destination="ugR-aR-JjA" id="84G-kb-Yss"/>
@@ -94,10 +94,11 @@
                     <view key="view" contentMode="scaleToFill" id="Ytd-iS-gYw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.98823529409999999" green="0.69803921570000005" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="WWn-YN-o2w">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="1uH-NG-BSx">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="1uH-NG-BSx">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="presentLeftMenuViewController:" destination="hVK-Qy-sAv" id="4jd-c4-0TB"/>
                             </connections>
@@ -148,5 +149,6 @@
     </scenes>
     <resources>
         <image name="bg" width="1000" height="667"/>
+        <image name="menu" width="32" height="32"/>
     </resources>
 </document>
