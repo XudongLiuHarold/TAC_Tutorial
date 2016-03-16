@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'PodsDemo' do
+
+pod 'RESideMenu'
+pod 'LTNavigationBar', '~> 2.1.2'
+pod 'EZAudio', '~> 1.1.5'
+
+end
+
+target 'PodsDemoTests' do
+
+end
+
+target 'PodsDemoUITests' do
+
+end
+
