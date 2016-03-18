@@ -7,19 +7,24 @@
 1. Content Views
 	* TextView
 	* TableView
-	<img src="http://cl.ly/0t1Y41191v2T/TableView.png" width="350"/>
+
+		<img src="http://cl.ly/0t1Y41191v2T/TableView.png" width="350"/>
 	* ScrollView
 	* ImageView
 	* CollectionView
-	<img src="http://cl.ly/2C2V0j1g3i0K/Image%202016-03-18%20at%2011.19.10%20%E4%B8%8B%E5%8D%88.png" width="350"/>
+
+		<img src="http://cl.ly/2C2V0j1g3i0K/Image%202016-03-18%20at%2011.19.10%20%E4%B8%8B%E5%8D%88.png" width="350"/>
 
 2. Bars
 	* StatusBar
-	<img src="http://cl.ly/041r3F002O24/Status%20Bar.png" width="350"/>
+
+		<img src="http://cl.ly/041r3F002O24/Status%20Bar.png" width="350"/>
 	* NavigationBar
-	<img src="http://cl.ly/0J0i2P1d2o12/Navigation%20Bar.png" width="350"/>
+
+		<img src="http://cl.ly/0J0i2P1d2o12/Navigation%20Bar.png" width="350"/>
 	* TabBar
-	<img src="http://cl.ly/040r353a2D1H/Image%202016-03-18%20at%2011.17.46%20%E4%B8%8B%E5%8D%88.png" width="350"/>
+
+		<img src="http://cl.ly/040r353a2D1H/Image%202016-03-18%20at%2011.17.46%20%E4%B8%8B%E5%8D%88.png" width="350"/>
 	* ToolBar
 	* SearchBar
 
@@ -28,23 +33,31 @@
 	* Label
 	* TextField
 	* Switch
-	<img src="http://cl.ly/2r0H2K0i0Y0U/Switch.png" width="50"/>
+
+		<img src="http://cl.ly/2r0H2K0i0Y0U/Switch.png" width="50"/>
 	* Slider
-	<img src="http://cl.ly/0y2d0Z2C1l2g/Image%202016-03-18%20at%2011.23.20%20%E4%B8%8B%E5%8D%88.png" width="350"/>
+
+		<img src="http://cl.ly/0y2d0Z2C1l2g/Image%202016-03-18%20at%2011.23.20%20%E4%B8%8B%E5%8D%88.png" width="350"/>
 	* Segment
-	<img src="http://cl.ly/3u3H3H3M3v45/Image%202016-03-18%20at%2011.23.09%20%E4%B8%8B%E5%8D%88.png" width="250"/>
+
+		<img src="http://cl.ly/3u3H3H3M3v45/Image%202016-03-18%20at%2011.23.09%20%E4%B8%8B%E5%8D%88.png" width="250"/>
 	* DatePicker
-	<img src="http://cl.ly/3F092c0q3M2D/Image%202016-03-18%20at%2011.22.31%20%E4%B8%8B%E5%8D%88.png" width="250"/>
+		
+		<img src="http://cl.ly/3F092c0q3M2D/Image%202016-03-18%20at%2011.22.31%20%E4%B8%8B%E5%8D%88.png" width="250"/>
 
 4. Temporary Views
 	* AlertView
-	<img src="http://cl.ly/1F3M1C3E2X3r/Image%202016-03-18%20at%2011.23.49%20%E4%B8%8B%E5%8D%88.png" width="250"/>
+		
+		<img src="http://cl.ly/1F3M1C3E2X3r/Image%202016-03-18%20at%2011.23.49%20%E4%B8%8B%E5%8D%88.png" width="250"/>
 	* ActionSheet
-	<img src="http://cl.ly/3e1B0i1T421p/Image%202016-03-18%20at%2011.24.06%20%E4%B8%8B%E5%8D%88.png" width="250"/>
+		
+		<img src="http://cl.ly/3e1B0i1T421p/Image%202016-03-18%20at%2011.24.06%20%E4%B8%8B%E5%8D%88.png" width="250"/>
 	* ActivityView
-	<img src="http://cl.ly/3u021y450B3A/Image%202016-03-18%20at%2011.18.50%20%E4%B8%8B%E5%8D%88.png" width="350"/>
+		
+		<img src="http://cl.ly/3u021y450B3A/Image%202016-03-18%20at%2011.18.50%20%E4%B8%8B%E5%8D%88.png" width="350"/>
 	* Popover
-	<img src="http://cl.ly/1e0h2l1e1N2y/Image%202016-03-18%20at%2011.19.48%20%E4%B8%8B%E5%8D%88.png" width="350"/>
+		
+		<img src="http://cl.ly/1e0h2l1e1N2y/Image%202016-03-18%20at%2011.19.48%20%E4%B8%8B%E5%8D%88.png" width="350"/>
 
 5. More...
 
