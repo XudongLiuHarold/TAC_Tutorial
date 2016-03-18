@@ -40,7 +40,6 @@ Mac OSX 平台上有众多支持Markdown语法的编辑器，笔者用过其中�
 有两款还算不错，一款叫 MarkdownPad ，另一款叫 MarkPad。
 `
 
-
 ## Web
 [简书](http://www.jianshu.com/)
 上面有不少技术大牛写的博文，也有不少小清新文章，是一个非常火的社区。
