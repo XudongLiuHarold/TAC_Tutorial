@@ -61,7 +61,7 @@
 
 5. More...
 
-## iOS设计的基本纲领（摘抄自Human Interface Guidelines）
+## iOS设计的基本纲领（摘抄自Human Interface Guidelines:neutral_face:）
 
 1. iOS三大设计原则：
 	1. Deference：UI帮助用户理解内容，不能分散用户对内容的注意力
@@ -74,16 +74,60 @@
 
 ## 没有设计师？程序员也可以做出漂亮的设计
 
-1. 怎么使用Sketch模版
-2. app图标设计
-3. 界面设计
-4. Sketch一些有用的插件
+1. Sketch模版
+	* iOS模版
+	* iOS app图标模版
+	* Web模版
+
+2. 界面设计
+	* 用什么做参考？
+	* 如何优雅地“借鉴”（demo）
+	* 注意细节
+
+3. Sketch一些有用的插件
+	* Steps:
+		1. Sketch Toolbox [下载 :arrow_down:](http://sketchtoolbox.com/)
+		2. 去系统设置给个权限
+		3. 打开toolbox搜索想要的插件下载就好啦～
+
+	* 插件推荐（[参考资料](http://www.sketchcn.com/sketch-tips-tricks-1.html)）
+		1. Content Generator Sketch Plugin
+		2. Sketch Measure（我也是最近才知道，这个真的好用到爆炸了:boom:）
+		3. Rename It
+		4. More...（欢迎分享:hushed:)
 
 ## 设计与编程的结合
 
 1. 什么是1x、2x、3x图片？怎么导出？
+
+	* 首先，**PPI**是每英寸的像素数目，我们都知道Retina和非Retina的区别，自然Retina PPI更高。
+	* **像素**（pixels/px）是数码显示上最小的计算单位。所以在同一个屏幕尺寸，更高的PPI，就能显示更多的像素，同时渲染的内容也会更清晰。
+	* 而**点**（points/pt）是一个与分辨率无关的计算单位（真实尺寸）。根据屏幕的像素密度，一个点可以包含多个像素（例如，在标准Retina显示屏上1pt里有2x2个像素）。
+	* 当为多种显示设备设计时，应该以“点”为单位作参考，但仍然需要以3种不同的分辨率导出你的素材，不管是在哪种分辨率下设计应用。
+
+	| Device         | Resolution Ratio | PPI   | Size  |
+	| -------------- |:----------------:|:-----:| -----:|
+	| iPhone 6 Plus  | ```@3x```        | 401   | 5.5"  |
+	| iPhone 6       | ```@2x```        | 326   | 4.7"  |
+	| iPhone 5/5S/5C | ```@2x```        | 326   | 4.0"  |
+	| iPhone 4/4S    | ```@2x```        | 326   | 3.5"  |
+	| iPhone 1/2/3   | ```@1x```        | 163   | 3.5"  |
+	| iPad Air/4     | ```@2x```        | 264   | 9.7"  |
+	| iPad Mini2/3   | ```@2x```        | 326   | 7.9"  |
+	| Other iPad     | ```@1x```        | 132   | /     |
+
+	* Sketch导出方法介绍：
+		1. Make Exportable
+		2. Export
+
 2. 如何切图？什么样的图需要切？
-3. 专业的设计师是需要标出尺寸的！（QAQ当然我们这种设计到代码一条龙服务的人一般都是量的……）
+	简单来说就是“自定义”的图。
+	一般就是这几类：
+	* icon (selected/unselected)
+	* 额…好像其他也没有什么了，一般icon切的最多
+
+3. 专业的设计师是需要标出尺寸的！
+	现在呢，如果你用PS我也不知道什么好方法，不过我们的sketch插件已经解决了这个可怕的问题:sunglasses:
 
 ## 从设计到编程，编程中有关UI的小tips
 
