@@ -81,7 +81,9 @@
 
 2. 界面设计
 	* 用什么做参考？
-	* 如何优雅地“借鉴”（demo）
+	* 如何优雅地“借鉴”
+		* [详细教程](https://github.com/xdliu002/TAC_communication/blob/Mandy/TAC_UIDesign/Demo_Tutorial.md)
+		* [下载Demo](http://cl.ly/0B1s3J3I0v0u/download/UIDesign_Demo.sketch)
 	* 注意细节
 
 3. Sketch一些有用的插件
@@ -155,3 +157,13 @@
 8. [Sketch中文用户手册](http://sketchcn.com/sketch-chinese-user-manual.html)
 
 其他的还等待大家挖掘～
+
+## 再给大家推荐几个微信号
+
+1. UI设计达人：BestUIDesign
+2. CocoaChina：cocoachinabbs
+3. iOS大全：iOShub
+
+====
+
+Copyright 2016 &copy; Mandy Xue
