@@ -26,15 +26,19 @@
 
 1. 我们先[搜搜看](https://dribbble.com/search?q=ios++blue)有没有```ios blue```关键词的设计（:new_moon_with_face:就是这么简单粗暴）
 	发现了[这个](https://dribbble.com/shots/1131223-iOS-7-University-App/attachments/144919)，看上去不错：
+
 	<img src="http://cl.ly/1e1h3p1W1X1Y/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-21%20%E4%B8%8B%E5%8D%882.59.12.png" width="600"/>
 2. 好的我们着手开始抄，抄完效果如下：
+
 	<img src="http://cl.ly/2w1u0v3b3337/Image%202016-03-21%20at%203.04.38%20%E4%B8%8B%E5%8D%88.png" width="400">
 
 接下来，我们照抄tabbar布局（喂）：首页、消息、发布、发现、我的:new_moon_with_face:，这里的icon我也不是很喜欢，所以准备换个风格，那么我们来看看有没有我们喜欢的风格：
 
 1. [搜一搜](https://dribbble.com/search?q=tabbar)```tabbar```关键词，找到了[这个](https://dribbble.com/shots/1925069-Lynny-Icon-Set-Free)，感觉不错：
+
 	<img src="https://d13yacurqjgara.cloudfront.net/users/2404/screenshots/1925069/lynny.png" width="400">
 2. 好的我们又着手开始抄，效果如下：
+
 	<img src="http://cl.ly/003V0i3Q2S33/Image%202016-03-21%20at%203.46.47%20%E4%B8%8B%E5%8D%88.png" width="400">
 
 至此，我们的整体布局框架就搭好了。
@@ -44,11 +48,13 @@
 我这里拿“我的”做例子主要是比较简单而且实用。
 
 假设我现在没有什么构思，那么我又开始在dribbble上[搜索](https://dribbble.com/shots/876515-Search-for-friends-list)了，看到了这个：
+
 <img src="http://cl.ly/322n1X1M290R/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-21%20%E4%B8%8B%E5%8D%883.54.41.png" width="400">
 
 我觉得他的tableview cell设计很符合我的想法，那么我又开始抄了:new_moon_with_face:
 
 我的实现结果如下：
+
 <img src="http://cl.ly/1Y0e2v3Z1P0C/%E6%88%91%E7%9A%84.png" width="500">
 
 这里就可以用到之前推荐的几个插件了！
