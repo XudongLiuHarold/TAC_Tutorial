@@ -1,43 +1,35 @@
 //
-//  LocationDemoTests.swift
-//  LocationDemoTests
+//  WeatcherModelTests.swift
+//  LocationDemo
 //
 //  Created by Teng on 3/29/16.
 //  Copyright © 2016 huoteng. All rights reserved.
 //
 
 import XCTest
-@testable import LocationDemo
 
-class LocationDemoTests: XCTestCase {
-    
-    let testModel = WeatherModel()
-    var expectation:XCTestExpectation?
-    
+class WeatcherModelTests: XCTestCase {
+
     override func setUp() {
         super.setUp()
-        self.expectation = self.expectationWithDescription("Handler caller")
+        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testGetWeather() {
-        testModel.getWeather(39.93, lon: 116.4) { (cityName, weather) -> Void in
-            XCTAssert("" != cityName)
-            self.expectation!.fulfill()
-        }
 
-        self.waitForExpectationsWithTimeout(10.0, handler: nil)
+    func testExample() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-    
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }
-    
+
 }
