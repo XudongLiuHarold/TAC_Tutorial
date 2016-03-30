@@ -23,11 +23,6 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-//        WeatherModel().getWeather(39.93, lon: 116.40) { (cityName, weatherInfo) -> Void in
-//            print(cityName)
-//            print(weatherInfo)
-//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -94,7 +89,6 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     }
 
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print("size:\(locations.count)")
         if let location = locations.last {
             if nil == self.currentLocation || location.distanceFromLocation(self.currentLocation!) > 10000 {
                 self.currentLocation = location
@@ -116,6 +110,21 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
         getAuthorizationFromUser(status)
+    }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        if let locationError = CLError(rawValue: error.code) {
+            switch locationError {
+            case .LocationUnknown:
+                print("无法获得当前位置信息")
+            case .Network:
+                print("网路异常无法获得定位信息")
+            case .Denied:
+                print("用户拒绝App使用定位服务")
+            default:
+                print("其他原因导致App无法使用定位服务")
+            }
+        }
     }
 }
 

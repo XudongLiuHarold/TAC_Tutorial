@@ -26,7 +26,7 @@ class LocationDemoTests: XCTestCase {
     
     func testGetWeather() {
         testModel.getWeather(39.93, lon: 116.4) { (cityName, weather) -> Void in
-            XCTAssert("" != cityName)
+            XCTAssert("Beijing Shi" == cityName)
             self.expectation!.fulfill()
         }
 
