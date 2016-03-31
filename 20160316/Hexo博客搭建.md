@@ -75,7 +75,8 @@ npm install hexo -g
 
 其中`-g`代表全局安装，因为`npm`默认为当前项目安装。在terminal中输入`hexo -v`检查安装情况和版本信息。
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.44.58.png)
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.44.58.png" height = 200>
 
 到此我们就安装好了Hexo的环境。
 
@@ -88,19 +89,31 @@ npm install hexo -g
 hexo init
 ```
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.05.png)
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.05.png" height = 400>
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.27.png" height = 400>
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.48.png" height = 400>
+
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.05.png)
 
 ![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.27.png)
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.48.png)
+![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.48.png)-->
 
 在经过等待之后，当屏幕上出现了`INFO  Start blogging with Hexo!`的时候，就证明初始化成功了。下面是初始化成功后的文件路径：
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.53.40.png)
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.53.40.png)-->
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.53.40.png"height = 80>
+
+
 
 其中有一个非常重要的配置文件`_config.yml`，里面保存了很多博客的配置信息，我们用`Sublime`打开大概看一下。
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.54.50.png)
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.54.50.png)-->
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.54.50.png" height = 400>
 
 非常通俗易懂，比如`title`字段就是博客名，`author`就是作者名字等等，具体要改些什么要看我们有什么需求。然后我们输入下面的指令先在本地预览一下我们的博客：
 
@@ -108,11 +121,15 @@ hexo init
 hexo s #相当于hexo server，会启动本地4000端口。
 ```
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.56.51.png)
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.56.51.png)-->
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.56.51.png" height = 100>
 
 如图，我们启动server之后Hexo提示我们打开`http://localhost:4000/`预览博客，如果要终止预览，只需要在terminal中输入`Ctrl + C`。
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.57.05.png)
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.57.05.png)-->
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.57.05.png" height = 400>
 
 上面这个截图就是init之后的博客自带的主题`landscape`，那这个主题存在哪里呢？就在刚刚的目录下，我们发下一个`theme`文件夹，没错，这里可以放很多类似的文件夹，一个文件夹里面有一个主题。也许你会问如果有很多这样的文件夹，那Hexo在启动的时候为什么会知道究竟选用哪个主题呢？很简单，打开刚才的`_config.yml`我们可以找到`theme`字段，只要该主题存在于`/theme`路径下，即可输入主题名指定主题。Hexo有很多精致的主题供我们选择，之后我们会讲到如何切换新主题。
 
@@ -128,11 +145,15 @@ hexo new <文章名>
 
 比如我们新建一个名为`StartHexo `的博文如下图，然后会发现在`/source/_post`目录下多了一个文件`StartHexo.md`，这个`/_post`文件夹就是我们存放博文的位置。
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.06.20.png)
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.06.20.png" height = 80>
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.08.39.png)
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.08.39.png" height = 200>
 
-接下来在新建的博客中用`Markdown`写一些内容，然后删掉`hello-world.md`。如果你还不会`Markdown`，请移步：[<Markdown>](http://blog.anzhehong.com/2016/03/11/Markdown/)。
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.06.20.png)
+
+![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.08.39.png)-->
+
+接下来在新建的博客中用`Markdown`写一些内容，然后删掉`hello-world.md`。如果你还不会`Markdown`，请移步：[Markdown](http://blog.anzhehong.com/2016/03/11/Markdown/)。
 
 > 说明：如果不想博文的内容在首页全部显示, 并能出现阅读全文按钮效果, 需要在你想在首页显示的部分下添加<!--more-->
 
@@ -152,7 +173,9 @@ hexo new <文章名>
 hexo g #也就是hexo generate
 ```
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.16.46.png)
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.16.46.png)-->
+
+<img src = "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.16.46.png" height = 400>
 
 这个时候我们再次打开`http://localhost:4000/`预览博客，就会发现改变都生效了。
 
@@ -262,7 +285,9 @@ hexo d
 git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 
-![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2020.09.02.png)
+<!--![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2020.09.02.png)-->
+
+<img src= "http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2020.09.02.png" height =100>
 
 然后修改刚刚提到的`_config.yml`文件， 
 
@@ -276,6 +301,8 @@ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 HomePage
 ![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2020.11.04.png)
+
+***
 
 BlogPage
 ![](http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2020.11.23.png)
