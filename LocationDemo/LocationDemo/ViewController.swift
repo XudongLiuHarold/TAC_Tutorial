@@ -17,7 +17,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     @IBOutlet weak var cityLable: UILabel!
     @IBOutlet weak var weatherDescLable: UILabel!
     
-    var locationManger:CLLocationManager?
+    var locationManager:CLLocationManager?
     var currentLocation:CLLocation?
     var successGetCurrentWeather = false
     
@@ -33,21 +33,24 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(animated)
         
-        locationManger?.stopUpdatingLocation()
+        //在用户离开当前页面后停止定位
+        locationManager?.stopUpdatingLocation()
     }
 
     @IBAction func startLocate(sender: AnyObject) {
         let authorityStatus = CLLocationManager.authorizationStatus()
         
+        //检查定位权限通过后开始配置locationManager
         if getAuthorizationFromUser(authorityStatus) {
             startStandardLocate()
         }
     }
+    
     @IBAction func stopLocate(sender: AnyObject) {
-        self.locationManger?.stopUpdatingLocation()
+        self.locationManager?.stopUpdatingLocation()
     }
     
-    
+    //检查App的定位权限
     func getAuthorizationFromUser(status: CLAuthorizationStatus) -> Bool {
         var userAgreeUseLocation = false
         
@@ -55,7 +58,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         case .AuthorizedAlways, .AuthorizedWhenInUse:
             userAgreeUseLocation = true
             
-        case .Denied, .Restricted:
+        case .Denied, .Restricted://当定位权限被禁用或是无法获得定位信息时给用户一个Alert弹窗提示，并引导用户到设置中打开定位功能
             let alertController = UIAlertController(title: "设备定位权限被禁用", message: "请在设置中打开App的定位功能", preferredStyle: .Alert)
             let cancelAction = UIAlertAction(title: "取消", style: .Cancel, handler: nil)
             alertController.addAction(cancelAction)
@@ -68,26 +71,33 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
             alertController.addAction(openAction)
             self.presentViewController(alertController, animated: true, completion: nil)
             
-        case .NotDetermined:
-            locationManger = CLLocationManager()
-            self.locationManger!.requestWhenInUseAuthorization()
+        case .NotDetermined://当定位权限还没有明确时需要向用户申请定位权限，具体申请哪一种权限要根据应用的具体功能来确定
+            locationManager = CLLocationManager()
+            
+            //在这里向用户申请在App使用时获得定位的权限
+            self.locationManager!.requestWhenInUseAuthorization()
             
             userAgreeUseLocation = true
         }
         return userAgreeUseLocation
     }
     
+    //实例化locationManager并配置，设置delegate后开始定位
     func startStandardLocate() {
-        if nil == locationManger {
-            locationManger = CLLocationManager()
+        if nil == locationManager {
+            locationManager = CLLocationManager()
         }
         
-        locationManger!.delegate = self
-        locationManger!.desiredAccuracy = kCLLocationAccuracyHundredMeters
+        locationManager!.delegate = self
         
-        locationManger!.startUpdatingLocation()
+        //设置定位精度，并设置distanceFilter为5米
+        locationManager!.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager!.distanceFilter = 5
+        
+        locationManager!.startUpdatingLocation()
     }
 
+    //获取定位数据的delegate函数
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
             if nil == self.currentLocation || location.distanceFromLocation(self.currentLocation!) > 10000 {
@@ -108,10 +118,12 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         }
     }
     
+    //当用户更改定位权限时重新检查App定位权限状态
     func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
         getAuthorizationFromUser(status)
     }
     
+    //定位失败时根据不同的原因向用户返回相应的信息，这里只是将信息打印在了控制台中
     func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
         if let locationError = CLError(rawValue: error.code) {
             switch locationError {
