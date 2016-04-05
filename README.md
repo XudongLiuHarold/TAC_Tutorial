@@ -34,6 +34,14 @@
 2. [课堂Demo教程](https://github.com/xdliu002/TAC_communication/blob/master/TAC_UIDesign/Demo_Tutorial.md)
 3. [Sketch Demo下载](http://cl.ly/0B1s3J3I0v0u/download/UIDesign_Demo.sketch)
 
+## Lesson 4: CoreLocation & Alamofire
+
+:boy:**主讲人：[霍腾](https://github.com/AndyHT)**
+
+相关材料与文字教程：
+
+1. [CoreLocation讲义](https://github.com/xdliu002/TAC_communication/tree/master/LocationDemo/TAC_CoreLocation.md)
+2. [CoreLocaiton Demo](https://github.com/xdliu002/TAC_communication/tree/master/LocationDemo)
 
 ====
 
