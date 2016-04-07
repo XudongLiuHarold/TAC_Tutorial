@@ -136,6 +136,15 @@ class LoginViewController: UIViewController {
             make.width.equalTo(119)
         }
         
+        let jumpButton = UIButton()
+        jumpButton.setTitle("Jump to Register", forState: .Normal)
+        jumpButton.addTarget(self, action: #selector(LoginViewController.jumpButtonClicked), forControlEvents: .TouchUpInside)
+        superView.addSubview(jumpButton)
+        jumpButton.snp_makeConstraints { (make) in
+            make.top.equalTo(line2.snp_bottom).offset(5)
+            make.centerX.equalTo(superView)
+        }
+        
         let loginDescription = UILabel()
         loginDescription.text = "Login By"
         loginDescription.textColor = UIColor.grayColor()
@@ -164,6 +173,11 @@ class LoginViewController: UIViewController {
     
     func loginButtonClicked() {
         print("loginButtonClicked")
+    }
+    
+    func jumpButtonClicked() {
+        let destination = SingUpViewController()
+        self.presentViewController(destination, animated: true, completion: nil)
     }
 
 }

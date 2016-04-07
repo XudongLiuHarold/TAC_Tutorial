@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622365971CB6A6A6000BEC26 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622365961CB6A6A6000BEC26 /* SignupViewController.swift */; };
 		6247C9161CB675AB00A53D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6247C9151CB675AB00A53D84 /* AppDelegate.swift */; };
 		6247C9181CB675AB00A53D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6247C9171CB675AB00A53D84 /* ViewController.swift */; };
 		6247C91B1CB675AB00A53D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6247C9191CB675AB00A53D84 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		622365961CB6A6A6000BEC26 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		6247C9121CB675AB00A53D84 /* LoginAndRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAndRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6247C9151CB675AB00A53D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6247C9171CB675AB00A53D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				6247C9211CB675AB00A53D84 /* Info.plist */,
 				6247C9431CB677AD00A53D84 /* LoginViewController.swift */,
 				6247C9451CB6809D00A53D84 /* AAColor.swift */,
+				622365961CB6A6A6000BEC26 /* SignupViewController.swift */,
 			);
 			path = LoginAndRegister;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			files = (
 				6247C9441CB677AD00A53D84 /* LoginViewController.swift in Sources */,
 				6247C9461CB6809D00A53D84 /* AAColor.swift in Sources */,
+				622365971CB6A6A6000BEC26 /* SignupViewController.swift in Sources */,
 				6247C9181CB675AB00A53D84 /* ViewController.swift in Sources */,
 				6247C9161CB675AB00A53D84 /* AppDelegate.swift in Sources */,
 			);
