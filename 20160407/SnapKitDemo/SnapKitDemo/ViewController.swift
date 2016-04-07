@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 //        testEdges()
 //        testSize()
 //        testCenter()
-        testReadble()
+//        testReadble()
         
         // Do any additional setup after loading the view, typically from a nib.
     }
