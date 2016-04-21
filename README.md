@@ -43,6 +43,11 @@
 1. [CoreLocation讲义](https://github.com/xdliu002/TAC_communication/tree/master/LocationDemo/TAC_CoreLocation.md)
 2. [CoreLocaiton Demo](https://github.com/xdliu002/TAC_communication/tree/master/LocationDemo)
 
+## Lesson 4: iOS动画效果入门
+:boy:**主讲人：[李锐](https://github.com/bewils)**
+
+相关材料与文字教程：
+
 ====
 
 Copyright 2016 &copy; Tongji Apple Club
