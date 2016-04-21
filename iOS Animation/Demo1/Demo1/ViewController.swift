@@ -29,9 +29,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        UIView.transitionFromView(img1, toView: img2, duration: 1, options: .TransitionCurlUp, completion: nil)
-    }
 }
 
