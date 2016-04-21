@@ -48,6 +48,9 @@
 
 相关材料与文字教程：
 
+1. [iOS Animation讲义](https://github.com/xdliu002/TAC_communication/blob/master/iOS%20Animation/md/iOS_animation1.md)
+2. [iOS Animation Demo](https://github.com/xdliu002/TAC_communication/tree/master/iOS%20Animation)
+
 ====
 
 Copyright 2016 &copy; Tongji Apple Club
