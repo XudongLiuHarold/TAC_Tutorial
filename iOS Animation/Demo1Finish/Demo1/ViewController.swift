@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     var img1: UIImageView!
     var img2: UIImageView!
+    var v: CALayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,17 +22,23 @@ class ViewController: UIViewController {
         img1.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         self.view.addSubview(img1)
         
-        img2 = UIImageView(image: UIImage(named: "2.jpg"))
-        img2.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        v = CALayer()
+        v.bounds = CGRect(x: 0, y: 0, width: self.view.frame.height + 100, height: self.view.frame.height + 100)
+        v.backgroundColor = UIColor.clearColor().CGColor
+        v.position = self.view.center
+        v.borderColor = UIColor.whiteColor().CGColor
+        v.borderWidth = (self.view.frame.height + 100) / 2
+        v.cornerRadius = (self.view.frame.height + 100) / 2
+        img1.layer.addSublayer(v)
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        UIView.transitionFromView(img1, toView: img2, duration: 1, options: .TransitionCurlUp, completion: nil)
+        v.borderWidth = 0
     }
 }
 
