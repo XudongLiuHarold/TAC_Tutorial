@@ -43,13 +43,21 @@
 1. [CoreLocation讲义](https://github.com/xdliu002/TAC_communication/tree/master/LocationDemo/TAC_CoreLocation.md)
 2. [CoreLocaiton Demo](https://github.com/xdliu002/TAC_communication/tree/master/LocationDemo)
 
-## Lesson 4: iOS动画效果入门
+## Lesson 5: iOS动画效果入门
 :boy:**主讲人：[李锐](https://github.com/bewils)**
 
 相关材料与文字教程：
 
 1. [iOS Animation讲义](https://github.com/xdliu002/TAC_communication/blob/master/iOS%20Animation/md/iOS_animation1.md)
 2. [iOS Animation Demo](https://github.com/xdliu002/TAC_communication/tree/master/iOS%20Animation)
+
+## Lesson 6: TableView & MVC
+:boy:**主讲人：[李茂琦](https://github.com/WishQi)**
+
+相关材料与文字教程：
+
+1. [TableView & MVC](https://github.com/xdliu002/TAC_communication/blob/master/2016.4.28/TableView.pdf)
+2. [TableView & MVC Demo](https://github.com/xdliu002/TAC_communication/tree/master/2016.4.28/TableView)
 
 ====
 
