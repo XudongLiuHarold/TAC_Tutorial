@@ -179,12 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4577C011CAAA8040094B605 /* Build configuration list for PBXNativeTarget "LocationDemo" */;
 			buildPhases = (
-				7129EE4D3C32C9D5661D0126 /* Check Pods Manifest.lock */,
+				7129EE4D3C32C9D5661D0126 /* [CP] Check Pods Manifest.lock */,
 				A4577BD51CAAA8030094B605 /* Sources */,
 				A4577BD61CAAA8030094B605 /* Frameworks */,
 				A4577BD71CAAA8030094B605 /* Resources */,
-				40631284C923E9DD0C19558A /* Embed Pods Frameworks */,
-				DC12C230BE4EF814A68328A1 /* Copy Pods Resources */,
+				40631284C923E9DD0C19558A /* [CP] Embed Pods Frameworks */,
+				DC12C230BE4EF814A68328A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,12 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4577C041CAAA8040094B605 /* Build configuration list for PBXNativeTarget "LocationDemoTests" */;
 			buildPhases = (
-				955048013E5A005A1F875D90 /* Check Pods Manifest.lock */,
+				955048013E5A005A1F875D90 /* [CP] Check Pods Manifest.lock */,
 				A4577BE91CAAA8030094B605 /* Sources */,
 				A4577BEA1CAAA8030094B605 /* Frameworks */,
 				A4577BEB1CAAA8030094B605 /* Resources */,
-				4EA5AE82FF4F97874A0119A4 /* Embed Pods Frameworks */,
-				3BECA43C3C36FD7CC21BE7B4 /* Copy Pods Resources */,
+				4EA5AE82FF4F97874A0119A4 /* [CP] Embed Pods Frameworks */,
+				3BECA43C3C36FD7CC21BE7B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,11 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4577C071CAAA8040094B605 /* Build configuration list for PBXNativeTarget "LocationDemoUITests" */;
 			buildPhases = (
-				EF8455185D725D44D1B29A37 /* Check Pods Manifest.lock */,
+				EF8455185D725D44D1B29A37 /* [CP] Check Pods Manifest.lock */,
 				A4577BF41CAAA8030094B605 /* Sources */,
 				A4577BF51CAAA8030094B605 /* Frameworks */,
 				A4577BF61CAAA8030094B605 /* Resources */,
-				7354CD60428E1ABC3B9D81D3 /* Copy Pods Resources */,
+				7354CD60428E1ABC3B9D81D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,15 +249,18 @@
 					A4577BD81CAAA8030094B605 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = XPXAPTEPJX;
+						LastSwiftMigration = 0810;
 					};
 					A4577BEC1CAAA8030094B605 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = XPXAPTEPJX;
+						LastSwiftMigration = 0810;
 						TestTargetID = A4577BD81CAAA8030094B605;
 					};
 					A4577BF71CAAA8030094B605 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = XPXAPTEPJX;
+						LastSwiftMigration = 0810;
 						TestTargetID = A4577BD81CAAA8030094B605;
 					};
 				};
@@ -310,14 +313,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3BECA43C3C36FD7CC21BE7B4 /* Copy Pods Resources */ = {
+		3BECA43C3C36FD7CC21BE7B4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,14 +328,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationDemoTests/Pods-LocationDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		40631284C923E9DD0C19558A /* Embed Pods Frameworks */ = {
+		40631284C923E9DD0C19558A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,14 +343,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationDemo/Pods-LocationDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EA5AE82FF4F97874A0119A4 /* Embed Pods Frameworks */ = {
+		4EA5AE82FF4F97874A0119A4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +358,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationDemoTests/Pods-LocationDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7129EE4D3C32C9D5661D0126 /* Check Pods Manifest.lock */ = {
+		7129EE4D3C32C9D5661D0126 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,14 +373,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7354CD60428E1ABC3B9D81D3 /* Copy Pods Resources */ = {
+		7354CD60428E1ABC3B9D81D3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,14 +388,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationDemoUITests/Pods-LocationDemoUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		955048013E5A005A1F875D90 /* Check Pods Manifest.lock */ = {
+		955048013E5A005A1F875D90 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,14 +403,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DC12C230BE4EF814A68328A1 /* Copy Pods Resources */ = {
+		DC12C230BE4EF814A68328A1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,14 +418,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationDemo/Pods-LocationDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF8455185D725D44D1B29A37 /* Check Pods Manifest.lock */ = {
+		EF8455185D725D44D1B29A37 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +590,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoteng.LocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -600,6 +604,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoteng.LocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -612,6 +617,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoteng.LocationDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationDemo.app/LocationDemo";
 			};
 			name = Debug;
@@ -625,6 +631,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoteng.LocationDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationDemo.app/LocationDemo";
 			};
 			name = Release;
@@ -637,6 +644,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoteng.LocationDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LocationDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -650,6 +658,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoteng.LocationDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LocationDemo;
 				USES_XCTRUNNER = YES;
 			};

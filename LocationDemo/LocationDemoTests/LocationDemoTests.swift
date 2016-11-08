@@ -16,7 +16,7 @@ class LocationDemoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        self.expectation = self.expectationWithDescription("Handler caller")
+        self.expectation = self.expectation(withDescription: "Handler caller")
     }
     
     override func tearDown() {
@@ -30,12 +30,12 @@ class LocationDemoTests: XCTestCase {
             self.expectation!.fulfill()
         }
 
-        self.waitForExpectationsWithTimeout(10.0, handler: nil)
+        self.waitForExpectations(timeout: 10.0, handler: nil)
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
